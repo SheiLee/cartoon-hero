@@ -1,0 +1,85 @@
+html, body{
+	font-family: "Arial Black", Gadget, sans-serif;
+	margin: 0;
+	/*text-align: center;*/
+}
+
+
+header{
+	background-color: #8fb7c9;
+	padding: 40px /*trbl*/ 20px;
+	text-align: center;
+}
+
+h1{
+	font-size: 90px
+	color: white;
+}
+
+header img{
+
+	border-radius: 400px;
+	height: 500px;
+	border: 7px solid gray;
+	
+}
+/*<header>
+		<div class="wrapper">
+			<img src="https://cehowell.files.wordpress.com/2010/04/ialcr_fullxfull-44325.jpg">
+			<h1>Dean Winchester</h1>
+		</div>
+	</header>*/
+
+.content{
+	max-width: 900px;
+	margin: 0 auto;
+	background-color:  #e6e6e6;
+	padding: 0 20px;
+}
+
+#move{
+	text-align: center;
+}
+
+img.big-image{
+	max-width: 100%;
+	height: 560px;
+	width: 1000px;
+}
+
+p.caption{
+	font-size: 16px;
+	font-color: pink;
+	font-style: italic;
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+a{
+	color:  #595959;
+	text-decoration: none;
+}
+
+footer{
+	margin-top: 20px;
+	padding: 40px 20px;
+	background-color:  #e6e6e6;
+
+}
+
+ul{
+	text-align: center;
+}
+
+footer ul{
+	text-align: center;
+}
+
+footer ul li{
+	display: inline-block;
+	margin: 0 5px;
+}
